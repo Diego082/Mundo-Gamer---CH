@@ -57,22 +57,67 @@ header {
 /*___________FOOTER____________ */
 
 
-footer {
-    text-align: center;
-    background-color: rgb(35, 23, 46);
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    height: 50px;
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-footer h2 {
-    font-size: 17px;
+footer {
+    background-color: #22062b;
+    padding: 80px 0;
+}
+
+.footerRow {
     display: flex;
-    padding: 10px;
-    align-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footerLinks {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footerLinks h4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #a00a8c;
+    display: inline-block;
+    padding-bottom: 10px ;
+}
+
+.footerLinks ul li a {
+    font-size: 18px;
+    text-decoration: none;
     color: aliceblue;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3 ease;
+}
+
+.footerLinks ul li a:hover {
+    padding-left: 6px;
+    color: aliceblue;
+}
+
+.socialLink a {
+    color: aliceblue;
+    font-size: 25px;
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: transparent;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+.socialLink a:hover {
+    background-color: #23c4b4;
+
 }
 
 /*_______FORM INICIO DE SESION Y REGISTRO___*/
@@ -187,6 +232,11 @@ form .user {
     border-radius: 15px;
 }
 
+#register:hover {
+    background: transparent;
+    border: #7502d3 solid 1px;
+    transition: .3s;
+}
 
 
 .register {
@@ -198,7 +248,7 @@ form .user {
 }
 
 .register a {
-    color: #10f5c3;
+    color: #892eff;
 }
 
 /* ______FORMULARIO DE CONTACTO______ */
@@ -498,6 +548,13 @@ div .aboutText {
     text-decoration: none;
 }
 
+#talkToMe:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid #b91fad;
+    transform: .3s;
+    cursor: pointer;
+}
 
 
 

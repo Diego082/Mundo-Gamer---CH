@@ -1,0 +1,73 @@
+@media screen and (max-width: 1180px) {
+    .cardContent {
+        width: 45%;
+    }
+
+
+
+/*______SOBRE MI*/
+    .aboutMe {
+        width: 100%;
+        height: auto;
+        padding: 70px;
+    }
+
+/*______CONTACTO*/
+
+.contactSection .contactForm {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+    
+}
+
+@media screen and (max-width: 750px) {
+    .cardContent {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+
+
+
+    /*______SOBRE MI*/
+    #imgMe {
+        margin-bottom: 35px;
+    }
+
+    .aboutText h1 {
+        font-size: 60px;
+        margin-bottom: 25px;
+
+    }
+
+    /*_______CONATACTO*/
+    .contactSection .contactForm .contactInfo {
+        height: 300px;
+        padding: 20px;
+
+    }
+
+    .contactSection .contactForm .contactInfo .imgBox {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .footerRow {
+        text-align: center;
+    }
+
+    .footerLinks {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footerLinks a {
+        text-align: center;
+    }
+}
