@@ -10,7 +10,7 @@
 body {
     max-height: auto;
     min-height: 100vh;
-    background: url(/Desarrollo\ web\ -\ VScode\ MundoGamer/assets/FondoVioleta.jpg) no-repeat;
+    background: url(/assets/FondoVioleta.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
@@ -472,7 +472,7 @@ a {
 /*___________SOBRE MÍ____________ */
 
 .aboutBody {
-    background: url(/Desarrollo\ web\ -\ VScode\ MundoGamer/assets/FondoVioleta.jpg);
+    background: url(/assets/FondoVioleta.jpg);
 }
 
 
